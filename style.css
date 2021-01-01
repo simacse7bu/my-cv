@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: orchid;
+}
+.div-clear{
+    content: '';
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.container{
+    background-color: orchid;
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 20px;
+}
+.profile img{
+    width: 200px;
+    height: 200px;
+    border: 3px solid;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+  
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(12, 11, 11);
+}
+ h1{
+    font-size: 3rem;
+    font-family: cursive;
+}
+h3{
+    font-size:1.9rem;
+    font-family: cursive;
+}
+.header-contact{
+    float: right;
+    padding: 15px;
+    margin-top: 15px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: rgb(11, 15, 19);
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.header-contact a:hover{
+   color: rgb(173, 8, 113);
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+.left-div{
+    float: left;
+    width: 30%;
+}
+.right-div{
+    float: left;
+width: 70%;
+font-size: 1.2rem;
+}
+.edu-left{
+    float: left;
+    width: 45%;
+}
+
+.edu-right{
+    float: left;
+    width: 45%;
+}
+.bottom-container{
+   background-color: black;
+   text-align: center;
+   padding: 10px;
+
+}
+.bottom-container a{
+    color: white;
+    text-decoration: none;
+    /* margin: 15px; */
+    font-size: 1.8rem;
+    transition: 0.4s;
+    padding: 10px;
+   
+}
+.bottom-container a:hover{
+   background-color: tomato;
+   text-decoration: underline;
+   transform: scale(2);
+   color: rgb(11, 15, 19);
+}
+
+.bottom-container p{
+    color: white;
+    margin-top: 17px;
+    font-size: 1.3rem;
+}
